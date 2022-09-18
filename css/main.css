@@ -224,7 +224,7 @@ body {
   position: relative;
 }
 
-.video::after {
+.video-overlay::after {
   content: '';
   position: absolute;
   left: 0;
@@ -243,4 +243,49 @@ body {
 }
 
 .video__picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* display: none; */
+}
+
+.video__object {
+  width: 100%;
+  vertical-align: top;
+}
+
+/* Footer */
+
+.footer {
+  padding: 162px 0 82px;
+
+  letter-spacing: 0.04em;
+  font-size: 20px;
+  line-height: 36px;
+  color: rgba(31, 31, 31, 0.7);
+}
+
+.footer a {
+  letter-spacing: 0.04em;
+  font-size: 20px;
+  line-height: 36px;
+  color: rgba(31, 31, 31, 0.7);
+}
+
+.footer__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__nav {
+  display: flex;
+  column-gap: 104px;
+}
+
+.footer_email {
+}
+
+.footer__socials {
+  display: flex;
+  column-gap: 26px;
 }
